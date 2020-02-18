@@ -1,2 +1,7 @@
-# exercice5_HTML-CSS_LOGIN-FORM
-CSS Login Form | This is my learning exercice using HTML and CSS (I developped this exercice during my free-time)
+**LOGIN FORM : You can build your own project about a Traditional Login Form**
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+![placeholder-shown](https://user-images.githubusercontent.com/61105869/74776837-99610380-5298-11ea-8a85-34830e173c5f.jpg)
+
+*(This website was developped during my free-time to learn HTML and CSS)*
