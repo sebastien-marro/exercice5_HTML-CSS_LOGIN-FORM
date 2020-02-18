@@ -1,0 +1,114 @@
+/* --------------GENERAL------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* --------------LOGINBOX------------------- */
+
+.loginBox {
+    width: 350px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 40px;
+}
+
+.loginBox .user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+    /* top: calc(-100px / 2); */
+    left: calc(50% - 50px);
+}
+
+.loginBox h2 {
+    margin: 0 0 30px;
+    text-align: center;
+    color: #ffc733;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* --------------FORMBOX------------------- */
+
+.formBox label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.formBox input {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+.formBox input[type="email"],
+.formBox input[type="password"] {
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid #fefee2;
+    outline: none;
+    margin-bottom: 25px;
+    color: #fa3737;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formBox input[type="email"]:focus,
+.formBox input[type="password"]:focus {
+    border-bottom: 2px solid #c7006b;
+}
+
+.formBox input[type="submit"] {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #D36E70;
+    box-shadow: none;
+    outline: none;
+    border-style: none;
+    font-size: 16px;
+    color: #fefee2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formBox input[type="submit"]:hover {
+    background-color: #ff1493;
+}
+
+.formBox ::placeholder {
+    color: #c5c5c5;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.formBox a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fefee2;
+    font-weight: bold;
+}
+
+.formBox a:hover {
+    color: #ff1493;
+}
